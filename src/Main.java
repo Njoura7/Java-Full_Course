@@ -29,6 +29,8 @@ public class Main {
 
       System.out.println(drinksList);
       System.out.println(groceryList); //[[pizza], [tomatoes, peppers, onion], [code, coffee]]
+       //get 1st element of the second array
+       System.out.println(groceryList.get(1).get(0));
 
    }
 }
